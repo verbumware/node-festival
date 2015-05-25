@@ -1,0 +1,26 @@
+{
+  "name": "node-festival",
+  "version": "0.0.1",
+  "description": "nodejs interface to the Festival TTS",
+  "main": "index.js",
+  "bin": {
+    "node-festival": "make.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verbumware/node-festival.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/verbumware/node-festival/issues"
+  },
+  "homepage": "https://github.com/verbumware/node-festival",
+  "dependencies": {
+    "request": "*",
+    "var": "*"
+  }
+}
